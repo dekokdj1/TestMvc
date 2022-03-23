@@ -9,6 +9,7 @@ public class HomeController : Controller
     private readonly ILogger<HomeController> _logger;
 
     //This is a comment
+    //This is another comment
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
